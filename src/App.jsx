@@ -7,7 +7,9 @@ const App = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch("http://localhost:5000/api/getDB");
+      const response = await fetch(
+        "https://moblicisproject.onrender.com/api/getdb/"
+      );
       const result = await response.json();
       setData(result);
       setIsLoading(false);
