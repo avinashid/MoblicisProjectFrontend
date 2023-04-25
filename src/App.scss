@@ -1,0 +1,33 @@
+body {
+  margin: 50px;
+}
+
+.tableWrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  .head {
+    font-size: large;
+    font-weight: 500;
+  }
+  select {
+    width: 90vw;
+    max-width: 800px;
+    min-width: 300px;
+    // overflow: hidden;
+  }
+}
+
+.table {
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px grey;
+  width: 100vw;
+  max-width: 1200px;
+  overflow: auto;
+  border: 1px solid grey;
+  padding: 10px;
+
+  thead {
+    text-align: center;
+  }
+}
